@@ -1,0 +1,6 @@
+public/
+node_modules/
+src/_components/upload-module/upload-utils/vod-web-sdk-v5.js
+src/pages-participate-progress/components/rich-text-module
+src/_components/audio-list/index.vue
+src/static/libs/

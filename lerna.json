@@ -1,0 +1,29 @@
+{
+  "packages": [
+    "cli/*",
+    "cli-test2/*",
+    "mp/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com"
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "version": {
+      "allowBranch": [
+        "master",
+        "release/*",
+        "develop",
+        "feature/*"
+      ]
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

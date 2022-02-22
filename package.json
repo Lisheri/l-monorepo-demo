@@ -1,0 +1,54 @@
+{
+  "name": "uni-repo",
+  "private": true,
+  "scripts": {
+    "dev": "yarn run clean:build && yarn run bootstrap",
+    "add": "lerna add",
+    "bootstrap": "lerna bootstrap",
+    "build": "yarn clean:build && yarn build:stream",
+    "build:stream": "lerna run build --stream --ignore @xiaoe-*",
+    "build:modules": "yarn clean:build && lerna run build --stream --ignore ircloud-* --ignore @ircloud/gyl-modules",
+    "changed": "lerna changed",
+    "clean": "lerna clean && rm -rf node_modules",
+    "clean:build": "lerna run clean",
+    "create": "lerna create",
+    "lint": "eslint --ext .js,.vue",
+    "publish:package": "lerna version --no-private --force-publish --yes && lerna publish from-package",
+    "test": "lerna run test",
+    "import": "lerna import"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "stylelint": "^13.9.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+
+  },
+  "workspaces": {
+    "packages": [
+      "cli/*",
+      "cli-test2/*",
+      "mp/*"
+    ],
+    "nohoist": [
+      "**/husky"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "**/*.{css,scss}": [
+      "stylelint --fix"
+    ]
+  }
+}
