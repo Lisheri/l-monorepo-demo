@@ -1,8 +1,6 @@
 {
   "packages": [
-    "cli/*",
-    "cli-test2/*",
-    "mp/*"
+    "modules/*"
   ],
   "version": "independent",
   "command": {

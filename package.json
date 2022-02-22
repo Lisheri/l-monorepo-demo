@@ -20,7 +20,7 @@
   "devDependencies": {
     "husky": "^7.0.4",
     "stylelint": "^13.9.0",
-    "lerna": "^4.0.0",
+    "lerna": "^3.22.1",
     "prettier": "^2.0.5"
   },
   "dependencies": {
@@ -28,9 +28,7 @@
   },
   "workspaces": {
     "packages": [
-      "cli/*",
-      "cli-test2/*",
-      "mp/*"
+      "modules/*"
     ],
     "nohoist": [
       "**/husky"

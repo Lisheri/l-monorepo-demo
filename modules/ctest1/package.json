@@ -1,12 +1,11 @@
 {
-  "name": "@monorepo-demo/cli",
-  "private": true,
+  "name": "@monorepo-demo/ctest1",
   "version": "1.0.0",
-  "description": "测试monorepo-lerna添加包",
+  "description": "测试1",
   "author": "Lisher <496585582@qq.com>",
   "homepage": "https://github.com/Lisheri/l-monorepo-demo",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "lib/ctest1.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,7 +16,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisheri/l-monorepo-demo.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Lisheri/l-monorepo-demo/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
