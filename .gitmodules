@@ -1,0 +1,4 @@
+[submodule "mp/uni-case"]
+	path = mp/uni-case
+	url = https://github.com/Lisheri/uni-case.git
+	ignore = all
