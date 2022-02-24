@@ -1,6 +1,6 @@
 {
   "name": "@ltestrepo/ctest2",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.2-alpha.0",
   "description": "> TODO: description",
   "author": "Lisher <496585582@qq.com>",
   "homepage": "https://github.com/Lisheri/l-monorepo-demo",
@@ -32,5 +32,5 @@
     "lodash": "^4.17.21",
     "vue": "2.6.11"
   },
-  "gitHead": "efb53c01b8d25872fa41582ed9fd7000a09a4693"
+  "gitHead": "8133cc741317aa8e4c0280fbc356ed4bb5a89e7e"
 }
