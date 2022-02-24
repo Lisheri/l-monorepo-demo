@@ -8,7 +8,7 @@
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com"
+      "registry": "http://localhost:4873"
     },
     "bootstrap": {
       "ignore": "component-*",

@@ -31,5 +31,6 @@
     "babel": "^6.23.0",
     "lodash": "^4.17.21",
     "vue": "2.6.11"
-  }
+  },
+  "gitHead": "fc3e1c7b7ecd7dd4ea26a0da2338cb7d57347a77"
 }
