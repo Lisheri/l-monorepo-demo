@@ -4,7 +4,7 @@
   "description": "测试1",
   "author": "Lisher <496585582@qq.com>",
   "homepage": "https://github.com/Lisheri/l-monorepo-demo",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/ctest1.js",
   "directories": {
     "lib": "lib",
@@ -32,5 +32,5 @@
     "lodash": "^4.17.21",
     "vue": "2.6.11"
   },
-  "gitHead": "111e4986becdaae7bcf11ed95bf08df164bc6ec4"
+  "gitHead": "cfab3b71f5022e9e96eccfc64618bee1729ba5bb"
 }
