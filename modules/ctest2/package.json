@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-demo/ctest2",
-  "version": "1.0.3-alpha.0",
+  "version": "1.0.4-alpha.0",
   "description": "> TODO: description",
   "author": "Lisher <496585582@qq.com>",
   "homepage": "https://github.com/Lisheri/l-monorepo-demo",
@@ -27,7 +27,7 @@
     "url": "https://github.com/Lisheri/l-monorepo-demo/issues"
   },
   "dependencies": {
-    "@monorepo-demo/ctest1": "^1.0.3-alpha.0",
+    "@monorepo-demo/ctest1": "^1.0.4-alpha.0",
     "babel": "^6.23.0",
     "lodash": "^4.17.21",
     "vue": "2.6.11"
