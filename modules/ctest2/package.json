@@ -1,6 +1,6 @@
 {
   "name": "@ltestrepo/ctest2",
-  "version": "1.0.7-alpha.0",
+  "version": "1.0.8-alpha.0",
   "description": "> TODO: description",
   "author": "Lisher <496585582@qq.com>",
   "homepage": "https://github.com/Lisheri/l-monorepo-demo",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "registry": "http://localhost:4873"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,5 @@
     "lodash": "^4.17.21",
     "vue": "2.6.11"
   },
-  "gitHead": "cb12ca6522a8a2693558ffb92e0f0d1a0b481eea"
+  "gitHead": "120be02547f4af31c99edd7ce741c477fc5ded2e"
 }
