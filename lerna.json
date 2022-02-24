@@ -1,6 +1,7 @@
 {
   "packages": [
-    "modules/*"
+    "modules/*",
+    "components/*"
   ],
   "version": "independent",
   "command": {

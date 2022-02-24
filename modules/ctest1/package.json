@@ -27,6 +27,9 @@
     "url": "https://github.com/Lisheri/l-monorepo-demo/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@babel/preset-env": "^7.16.11",
+    "babel": "^6.23.0",
+    "lodash": "^4.17.21",
+    "vue": "2.6.11"
   }
 }

@@ -26,14 +26,10 @@
   "dependencies": {
 
   },
-  "workspaces": {
-    "packages": [
-      "modules/*"
-    ],
-    "nohoist": [
-      "**/husky"
-    ]
-  },
+  "workspaces": [
+    "modules/*",
+    "components/*"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

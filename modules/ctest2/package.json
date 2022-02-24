@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "@monorepo-demo/ctest1": "^1.0.0",
+    "babel": "^6.23.0",
     "lodash": "^4.17.21",
-    "vue": "^3.2.31"
+    "vue": "2.6.11"
   }
 }
